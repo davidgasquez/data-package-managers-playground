@@ -1,0 +1,11 @@
+{
+  "name": "Playground",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:latest": {},
+    "ghcr.io/stuartleeks/dev-container-features/shell-history:latest": {}
+  }
+}
