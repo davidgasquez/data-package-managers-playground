@@ -26,3 +26,9 @@ co2_trend
 ```
 
 Now, it should be possible to use `dim install "github.com/user/repo/dim.json"` to install a dataset from a remote repository.
+
+
+## Notes
+
+- Hard to grok how to use it from the docs.
+- Quite small surface area. You can basically install datasets from URLs, create new ones, or apply some kind of GPT3 transformation on top of them.
