@@ -1,0 +1,13 @@
+{
+  "fileVersion": "1.1",
+  "contents": [
+    {
+      "url": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_trend_gl.csv",
+      "name": "co2_trend",
+      "catalogUrl": null,
+      "catalogResourceId": null,
+      "postProcesses": [],
+      "headers": {}
+    }
+  ]
+}

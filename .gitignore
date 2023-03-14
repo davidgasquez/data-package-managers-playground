@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Dim
+dim/data_files/
+dim/dim-lock.json
