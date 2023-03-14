@@ -9,3 +9,11 @@ RUN wget https://github.com/c-3lab/dim/releases/download/v1.0.4/x86_64-unknown-l
 
 # Install quilt
 RUN pip install --upgrade 'quilt3[pyarrow]'
+
+# Install oxen
+RUN wget https://github.com/Oxen-AI/Oxen/releases/download/v0.4.11/oxen-ubuntu-20.04-0.4.11.deb -O /tmp/oxen.deb && \
+    dpkg -i /tmp/oxen.deb && \
+    rm /tmp/oxen.deb && \
+    wget https://github.com/Oxen-AI/Oxen/releases/download/v0.4.11/oxen-server-ubuntu-20.04-0.4.11.deb -O /tmp/oxen-server.deb && \
+    dpkg -i /tmp/oxen-server.deb && \
+    rm /tmp/oxen-server.deb

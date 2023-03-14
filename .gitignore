@@ -131,3 +131,6 @@ dmypy.json
 # Dim
 dim/data_files/
 dim/dim-lock.json
+
+# Oxen
+.oxen
